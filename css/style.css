@@ -1,0 +1,102 @@
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  height: 100vh;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: cover;
+}
+
+
+.main-card{
+  border-radius: 15px;
+  border-style: none;
+  background: #fff;
+  max-width: 350px;
+  text-align: center;
+}
+
+/* picture */
+.picture{
+  width: 350px;
+  padding-bottom: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+/* UP Text */
+.text h1{
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.text p{
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+
+/* Greey text */
+
+.greey-text-div{
+  margin: 0 10px 25px 10px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px 5px 20px;
+  border-radius: 10px;
+}
+.icon{
+  text-align: left;
+  padding: 0 0 0 5px;
+}
+.col-text{
+  text-align: left;
+  padding: 0 0 0 0;
+}
+.greey-text-div h2{
+    font-weight: 700;
+    width: 100px;
+    font-size: 17px;
+    text-align: left;
+    padding: 0 0 0 0;
+    margin: 0 25px 0 0;
+}
+.col-text p{
+  margin: 0;
+}
+.change a:hover{
+  text-decoration: none;
+  opacity: 0.6;
+}
+.change p{
+  margin: 0;
+}
+
+/* PAY BUTTON */
+
+.pay button{
+  width: 300px;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 0 25px 0;
+  border-style: none;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: hsl(245, 75%, 52%);
+}
+.pay button:hover{
+  opacity: 0.6;
+}
+/* CANCEL BUTTON */
+
+.cancel button{
+  font-family: 'Red Hat Display', sans-serif;
+  border-style: none;
+  background-color: #fff;
+  font-weight: 700;
+}
+.cancel button:hover{
+  opacity: 0.6;
+}
